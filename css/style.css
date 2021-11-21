@@ -1,3 +1,4 @@
+/* Responsive CSS */
 :root{
   --contentcolor:hsl(215, 51%, 70%);
   --etheriumcolor:hsl(178, 100%, 50%);
@@ -7,4 +8,29 @@
   --white:hsl(0, 0%, 100%);
 
   --font:'Outfit', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Formating body and stablishing the height */
+body{
+  display: flex;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: var(--mainBG);
+}  
+
+.container{
+  background-color: var(--cardBG);
+  border-radius: 1rem;
+  /* moving the size of the container */
+  transform: scale(0.8,0.8);
+  width: 200px;
+  box-shadow: 10px 10px 90px 10px ;
 }
