@@ -41,5 +41,11 @@ body{
   outline: 2px solid white;
 }
 
-
+/* adjust the border and stablishing connection with 
+rEd cube image, aligning items in the page */
+.equilibrium{
+  border-radius: 1rem;
+  background:url("../images/Image-equilibrium.png") no-repeat center center/cover;
+  height: 23rem;
+}
 
