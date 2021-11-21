@@ -91,6 +91,24 @@ p{
   height:50px;
   margin-top: -1rem;
 }
+/* two-dimensional vector resizing and radius in the image */
+img{
+  transform: scale(0.3);
+  border: solid 2px white;
+  border-radius: 10rem;
+  margin-left: -3.5rem;
+}
 
+/* get root colors and align items in two-dimensional vector */
+.creation{
+  margin-left: -2.1rem;
+  font-family: var(--font);
+  font-size: 1.3rem;
+  color: var(--white);
+}
 
+/* get de root color */
+span{
+  color: var(--contentcolor);
+}
   
