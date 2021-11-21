@@ -34,3 +34,10 @@ body{
   width: 200px;
   box-shadow: 10px 10px 90px 10px ;
 }
+
+/* aligening items in the page */
+.elements{
+  margin: 1.8rem;
+  outline: 2px solid white;
+}
+
