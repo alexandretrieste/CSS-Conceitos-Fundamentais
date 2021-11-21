@@ -83,7 +83,14 @@ p{
   letter-spacing: 2px;
 }
 
+/* moving -1rem to the element no longer disturbs the layout */
 .third{
-  border: 2px solid rgb(205, 50, 197);
+  display: flex;
+  color: white;
+  align-items: center;
+  height:50px;
+  margin-top: -1rem;
+}
+
 
   
