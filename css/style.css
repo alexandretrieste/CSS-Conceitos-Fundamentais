@@ -64,3 +64,21 @@ p{
   font-size: 1.2rem;
   letter-spacing: 0.063rem;
 }
+
+/* adjust icons eth and clock and font colors and adjust responsive parameters */
+.eth{
+  font-family: var(--font);
+  color: var(--etheriumcolor);
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+}
+.fab{
+  color: var(--etheriumcolor);
+}
+
+.days{
+  font-family: var(--font);
+  color: var(--contentcolor);
+  font-weight: 800;
+  letter-spacing: 2px;
+}
