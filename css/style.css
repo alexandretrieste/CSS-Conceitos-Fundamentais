@@ -65,6 +65,13 @@ p{
   letter-spacing: 0.063rem;
 }
 
+.second{
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  }
+
 /* adjust icons eth and clock and font colors and adjust responsive parameters */
 .eth{
   font-family: var(--font);
