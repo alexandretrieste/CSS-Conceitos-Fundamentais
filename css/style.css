@@ -19,7 +19,6 @@
 /* Formating body and stablishing the height */
 body{
   display: flex;
-  border: 2px solid white;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -31,14 +30,13 @@ body{
   border-radius: 1rem;
   /* moving the size of the container */
   transform: scale(0.8,0.8);
-  width: 200px;
+  width: 410px;
   box-shadow: 10px 10px 90px 10px ;
 }
 
 /* aligning items in the page */
 .elements{
   margin: 1.8rem;
-  outline: 2px solid white;
 }
 
 /* adjust the border and stablishing connection with 
@@ -49,3 +47,96 @@ rEd cube image, aligning items in the page */
   height: 23rem;
 }
 
+/* adjust font, color, header, using root and letter spacing */
+.heading{
+  font-family: var(--font);
+  color: var(--white);
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.heading:hover, heading:focus 
+{
+  color: #00fff7;
+}
+
+p{
+  font-family: var(--font);
+  color: var(--contentcolor);
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.063rem;
+}
+
+.second{
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font);
+  font-size: 1.2rem;
+  }
+
+/* adjust icons eth and clock and font colors and adjust responsive parameters */
+.eth{
+  font-family: var(--font);
+  color: var(--etheriumcolor);
+  font-weight: 600;
+  letter-spacing: 0.125rem;
+}
+.fab{
+  color: var(--etheriumcolor);
+}
+
+.days{
+  font-family: var(--font);
+  color: var(--contentcolor);
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+/* moving -1rem to the element no longer disturbs the layout */
+.third{
+  display: flex;
+  color: white;
+  align-items: center;
+  height:50px;
+  margin-top: -1rem;
+}
+/* two-dimensional vector resizing and radius in the image */
+img{
+  transform: scale(0.3);
+  border: solid 3px white;
+  border-radius: 10rem;
+  margin-left: -3.5rem;
+}
+
+/* get root colors and align items in two-dimensional vector */
+.creation{
+  margin-left: -2.1rem;
+  font-family: var(--font);
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+/* get de root color */
+.span{
+  color: var(--contentcolor);
+}
+
+.footer{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #8bacda;
+}
+
+.footer a{
+  font-size: .8rem;
+  text-decoration: none;
+  color: #00fff7;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.footer a:hover, .footer a:focus{
+  color: #009994;
+}
